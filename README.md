@@ -91,10 +91,6 @@ Get file from a bucket as a buffer
 Writer buffer as S3 file
 
 **Kind**: global function
-**Todo**
-
-- [ ] Add return ?
-
 
 | Param | Description |
 | --- | --- |
@@ -108,7 +104,6 @@ Writer buffer as S3 file
 Restore S3 object from GLACIER to NORMAL
 
 **Kind**: global function
-**Todo**
 
 - [ ] Add return ?
 
