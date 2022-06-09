@@ -16,7 +16,13 @@ The IoT team at Poclain exposes an API to access its data. The data is stored in
 - API Token
 - S3 Bucket structure
 
-## Available functions
+## Environment variables
+
+```
+S3_ACCESS_KEY_ID=SCW9JD5EQGJ1S4J4WCPS
+S3_SECRET_ACCESS_KEY=bd742fd5-7565-40ac-9342-6123b5cbfb34
+S3_ENDPOINT=s3.fr-par.scw.cloud
+```
 
 ## s3-functions library
 
