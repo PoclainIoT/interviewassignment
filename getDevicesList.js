@@ -3,7 +3,7 @@
 const S3Functions = require('@poclainiot/s3-functions');
 const AWS = require('aws-sdk');
 
-const bucketName = 'test';
+const bucketName = 'assignment';
 const s3Object = new AWS.S3(  { "accessKeyId"     : process.env.S3_ACCESS_KEY_ID,
                                 "secretAccessKey" : process.env.S3_SECRET_ACCESS_KEY,
                                 "endpoint"        : process.env.S3_ENDPOINT         }       )
