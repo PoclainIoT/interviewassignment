@@ -1,6 +1,6 @@
 'use strict';
 
-const S3Functions = require('@poclainiot/s3-functions');
+const S3Functions = require('./s3_functions.js');
 const AWS = require('aws-sdk');
 
 const bucketName = 'assignment';
