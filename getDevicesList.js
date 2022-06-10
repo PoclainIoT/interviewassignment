@@ -20,6 +20,10 @@ async function getDevicesList(s3Object, bucketName) {
   }
 }
 
-const result = await getDevicesList(s3Object, bucketName);
-console.log('Result : ', result);
+async function main() {
+    const result = await getDevicesList(s3Object, bucketName);
+    console.log('Result : ', result);
+}
+
+main();
 module.exports.getDevicesList = getDevicesList;
