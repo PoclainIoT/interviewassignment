@@ -2,7 +2,7 @@
 
 # Context
 
-The IoT team at Poclain exposes an API to access its data. The data is stored in a S3 bucket organized by devices. In this assignment, you will need to create a function returning the available devices on a given bucket.
+The IoT team at Poclain exposes an API to access its data. The data is stored in a S3 bucket organized by devices. In this assignment, you will need to create a function returning a list of the available devices on a given bucket.
 
 # Instructions
 
