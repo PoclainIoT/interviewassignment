@@ -75,7 +75,17 @@ Lists S3 objects using a bucket name and a prefix.
 <a name="getCommonPrefixes"></a>
 
 ## getCommonPrefixes(s3Object, bucketName, delimiter) ⇒ <code>contents</code>
-Lists S3 objects using a bucket name and a delimiter.
+Lists common prefixes between S3 objects, using a bucket name and a delimiter. See https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/s3/model/ObjectListing.html#getCommonPrefixes--
+
+ex:
+```
+foo/bar/etc
+foo/bar/bash
+bar/boo
+
+prefix='', delimiter='/' => 'foo/', 'bar/'
+prefix='', delimiter='/' => 'foo/bar/'
+```
 
 **Kind**: global function  
 **Returns**: <code>contents</code> - - Objects list  
